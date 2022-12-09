@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Clima</string>
+    <string name="texto_ubicacion">Desconocido</string>
+    <string name="texto_temperatura">0º</string>
+    <string name="texto_estado">Desconocido</string>
+    <string name="texto_bievenida">¡BIENVENIDO!</string>
+    <string name="ubicacionDefecto">Santo Domingo</string>
+    <string name="continuar">Continuar</string>
+    <string name="todo">TODO</string>
+    <string name="creditos">¡Gracias! Alina y Samir</string>
+    <string name="buscar">buscar</string>
+    <string name="compartir">compartir</string>
+</resources>
