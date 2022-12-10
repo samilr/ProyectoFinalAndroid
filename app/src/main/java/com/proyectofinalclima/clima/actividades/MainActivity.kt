@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
     private var toolbar: Toolbar? = null
     private var ubicacionActual:String = ""
     private var urlApi = ""
+    //
+
 
     private fun solicitudHTTPVolley(contextActivity: AppCompatActivity, url: String) {
         val colaDeSolicitudes = Volley.newRequestQueue(contextActivity)
