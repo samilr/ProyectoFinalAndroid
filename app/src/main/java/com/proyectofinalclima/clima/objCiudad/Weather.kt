@@ -1,4 +1,4 @@
-package com.mxdigitalacademy.clima.objCiudad
+package com.proyectofinalclima.clima.objCiudad
 
 class Weather(description:String,icon: String) {
     var description:String = ""

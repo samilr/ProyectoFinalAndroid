@@ -1,4 +1,4 @@
-package com.mxdigitalacademy.clima.objCiudad
+package com.proyectofinalclima.clima.objCiudad
 
 class Main(temp: Double) {
     var temp:Double = 0.0

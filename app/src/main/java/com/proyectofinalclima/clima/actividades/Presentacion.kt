@@ -1,4 +1,4 @@
-package com.mxdigitalacademy.clima.actividades
+package com.proyectofinalclima.clima.actividades
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,13 +7,13 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import com.mxdigitalacademy.clima.R
+import com.proyectofinalclima.clima.R
 
 class Presentacion : AppCompatActivity() {
 
     fun accionBotonContinuar(){
         val boton = findViewById<Button>(R.id.btContinuar)
-        val direccion = "com.mxdigitalacademy.clima.ciudad.LUGAR"
+        val direccion = "com.proyectofinalclima.clima.ciudad.LUGAR"
 
         boton.setOnClickListener(View.OnClickListener {
             val intentMainClass = Intent(this, MainActivity::class.java)

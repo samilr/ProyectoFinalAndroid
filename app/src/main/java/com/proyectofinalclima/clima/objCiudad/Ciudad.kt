@@ -1,4 +1,4 @@
-package com.mxdigitalacademy.clima.objCiudad
+package com.proyectofinalclima.clima.objCiudad
 
 class Ciudad(name:String, weather:ArrayList<Weather>, main:Main){
     var name:String = ""

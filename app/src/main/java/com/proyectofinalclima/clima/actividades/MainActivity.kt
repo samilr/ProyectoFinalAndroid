@@ -1,4 +1,4 @@
-package com.mxdigitalacademy.clima.actividades
+package com.proyectofinalclima.clima.actividades
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -15,9 +15,9 @@ import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.google.gson.Gson
-import com.mxdigitalacademy.clima.R
-import com.mxdigitalacademy.clima.red.Red
-import com.mxdigitalacademy.clima.objCiudad.Ciudad
+import com.proyectofinalclima.clima.R
+import com.proyectofinalclima.clima.red.Red
+import com.proyectofinalclima.clima.objCiudad.Ciudad
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -145,7 +145,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         iniciarToolbar()
-        asignarUbicacionLinkApi(intent.getStringExtra("com.mxdigitalacademy.clima.ciudad.LUGAR").toString())
+        asignarUbicacionLinkApi(intent.getStringExtra("com.proyectofinalclima.clima.ciudad.LUGAR").toString())
 
         if (Red.verficarConexionInternet(this))
             solicitudHTTPVolley(this, this.urlApi)
